@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-
+console.log("hola");
   var datos="apiKey=2213741-1568310058-egmat4jwcp25uyhd";
   var pageNrArray=Array(0,1,2,3);
   var prospects=0;
