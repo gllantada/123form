@@ -9,12 +9,12 @@ $(document).ready(function(){
     data: datos+"&pageNrArray="+pageNrArray+"&pageSize=100",
     success: function(data){
         prospects=data.submissions;
-        // console.log(formulario.submissions);
+        console.log(prospects);
         $("div[data-id='56690128']>div[data-role=input-row]>input").blur(function(){
         var id=$(this)[0].value;
         for (var i = 0; i < prospects.length; i++) {
           if(prospects[i].refid==id){
-            $("div[data-id='56689832']>div[data-role=input-row]>input").attr("value",prospects[i].refid);
+            $("div[data-id='56689832']>div[data-role=input-row]>input")[0].attr("value",prospects[i].refid);
           }
         }
       });
