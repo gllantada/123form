@@ -15,14 +15,14 @@ $(document).ready(function(){
          $("#56690128").blur(function(){
            console.log("inside.blur");
          });
-        $("div[data-id='56690128']>div[data-role='input-row']>input").blur(function(){
-        var id=$(this)[0].value;
-        for (var i = 0; i < prospects.length; i++) {
-          if(prospects[i].refid==id){
-            $("div[data-id='56689832']>div[data-role='input-row']>input")[0].attr("value",prospects[i].refid);
-            }
-          }
-        });
+        // $("div[data-id='56690128']>div[data-role='input-row']>input").blur(function(){
+        // var id=$(this)[0].value;
+        // for (var i = 0; i < prospects.length; i++) {
+        //   if(prospects[i].refid==id){
+        //     $("div[data-id='56689832']>div[data-role='input-row']>input")[0].attr("value",prospects[i].refid);
+        //     }
+        //   }
+        // });
       },
     dataType: "JSON",
     type:"POST"
