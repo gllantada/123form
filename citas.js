@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+console.log("hola mundo");
 $(document).ready(function(){
-  console.log("hola mundo");
 
   var datos="apiKey=2213741-1568310058-egmat4jwcp25uyhd";
   var pageNrArray=Array(0,1,2,3);
@@ -11,7 +11,7 @@ $(document).ready(function(){
     data: datos+"&pageNrArray="+pageNrArray+"&pageSize=100",
     success: function(data){
         prospects=data.submissions;
-        $("56690128").blur(function(){
+        $("#56690128").blur(function(){
           console.log("inside.blur");
         });
              console.log(formulario.submissions);
