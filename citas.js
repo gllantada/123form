@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-console.log("hola mundo");
+// console.log("hola mundo");
+alert("hogla0");
 $(document).ready(function(){
 
   var datos="apiKey=2213741-1568310058-egmat4jwcp25uyhd";
