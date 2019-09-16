@@ -10,7 +10,7 @@ sourceControlInstance = loader.getEngine (). getDocument (). getElementById (sou
 
 targetControlInstance = loader.getEngine (). getDocument (). getElementById (targetControlId);
 
-sourceControlInstance.on ('value-change', function () {
+sourceControlInstance.on ('value-blur', function () {
 
 targetControlInstance.setValue (sourceControlInstance.getValue ());
 
