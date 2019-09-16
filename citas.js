@@ -1,4 +1,4 @@
 window.onload=function(){
   console.log("holalaaaa");
-alert("hola00");
+// alert("hola00");
 };
