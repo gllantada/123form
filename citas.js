@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  $("div[data-id='56690128']").css("background-color","red");
+  $("div").css("background-color","red");
 
 });
 function(){
