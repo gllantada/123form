@@ -1,6 +1,6 @@
 
 window.onload=function(){
-  $("#56690128").CSS("display","none");
+  $("div[data-id='56690128']").CSS("display","none");
  //  var datos="apiKey=2213741-1568310058-egmat4jwcp25uyhd";
  //        console.log("hola1");
  //        var pageNrArray=Array(0,1,2,3);
