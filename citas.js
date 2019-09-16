@@ -1,8 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 // console.log("hola mundo");
-alert("hogla0");
-$(document).ready(function(){
+$("document").ready(function(){
+  alert("hogla0");
 
   var datos="apiKey=2213741-1568310058-egmat4jwcp25uyhd";
   var pageNrArray=Array(0,1,2,3);
