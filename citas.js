@@ -11,10 +11,11 @@ $(document).ready(function(){
     data: datos+"&pageNrArray="+pageNrArray+"&pageSize=100",
     success: function(data){
         prospects=data.submissions;
-         console.log(formulario.submissions);
-         $("#56690128").blur(function(){
-           console.log("inside.blur");
-         });
+        $("56690128").blur(function(){
+          console.log("inside.blur");
+        });
+             console.log(formulario.submissions);
+
         // $("div[data-id='56690128']>div[data-role='input-row']>input").blur(function(){
         // var id=$(this)[0].value;
         // for (var i = 0; i < prospects.length; i++) {
