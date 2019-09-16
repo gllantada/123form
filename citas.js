@@ -1,3 +1,3 @@
-$(function(){
-  console.log("readu");
+document.onload(function(){
+alert("hola00");
 })
