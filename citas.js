@@ -2,7 +2,7 @@
 
 window.addEventListener ('load', function () {
 
-var sourceControlId = 56690128, / ** LA ID DEL CONTROL DEL ENVIADOR * /
+var sourceControlId = "56690128", / ** LA ID DEL CONTROL DEL ENVIADOR * /
 
 targetControlId = 56689832, / ** LA ID DEL CONTROL DEL RECEPTOR ** /
 
@@ -11,7 +11,7 @@ sourceControlInstance = loader.getEngine (). getDocument (). getElementById (sou
 targetControlInstance = loader.getEngine (). getDocument (). getElementById (targetControlId);
 sourceControlInstance.setValue("gola");
 sourceControlInstance.on ('change', function () {
-console.log("hola");
+alert("gola");
 targetControlInstance.setValue (sourceControlInstance.getValue ());
 
 });
