@@ -6,10 +6,10 @@ var image_form_id = "";
 $(document).ready(function (e) {
 
 
-        $('div[data-id='+dropdown_textarea_form_id).change(function () {
+        $('div[data-id=56690128]:last-child').change(function () {
         alert("gola");
         });
-    
+
 
 
 
