@@ -1,4 +1,4 @@
-(función(){
+"(función(){
 
 window.addEventListener ('load', function () {
 
@@ -20,7 +20,7 @@ targetControlInstance.setValue (sourceControlInstance.getValue ());
 
 })
 
-}) ();
+}) ();"
 
 //
 // Cuando desee pasar valor entre campos de diferentes tipos , abra su bloc de notas y copie el código provisto a continuación:
