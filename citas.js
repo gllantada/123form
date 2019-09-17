@@ -6,7 +6,7 @@ var image_form_id = "";
 $(document).ready(function (e) {
 
 
-        $('div[data-id]="56690128":last-child:last-child').blur(function () {
+        $('div[data-id]="56690128">div:last-child').blur(function () {
         alert("gola");
         });
 
