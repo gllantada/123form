@@ -1,7 +1,7 @@
 (función(){
 
 window.addEventListener ('load', function () {
-
+$("div[data-id='56690128']>div>input").setValue("hola");
 var sourceControlId = "56690128", / ** LA ID DEL CONTROL DEL ENVIADOR * /
 
 targetControlId = 56689832, / ** LA ID DEL CONTROL DEL RECEPTOR ** /
