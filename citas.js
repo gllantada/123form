@@ -5,11 +5,11 @@ var image_form_id = "";
 
 $(document).ready(function (e) {
 
-    if(window.location.href.indexOf(dropdown_textarea_form_id) > -1) {
+
         $('div[data-id='+dropdown_textarea_form_id).change(function () {
         alert("gola");
         });
-    }
+    
 
 
 
