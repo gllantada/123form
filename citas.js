@@ -6,7 +6,7 @@ var image_form_id = "";
 $(document).ready(function (e) {
 
     if(window.location.href.indexOf(dropdown_textarea_form_id) > -1) {
-        $('#id123-control'+dropdown_textarea_form_id).change(function () {
+        $('#data-id='+dropdown_textarea_form_id).change(function () {
         alert("gola");
         });
     }
