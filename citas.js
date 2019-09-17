@@ -7,15 +7,11 @@ $(document).ready(function (e) {
 
     if(window.location.href.indexOf(dropdown_textarea_form_id) > -1) {
         $('#id123-control'+dropdown_cid).change(function () {
-          $(this).css("background-color","red");
+        alert("gola");
         });
     }
 
-    if(window.location.href.indexOf(numeric_validation_form_id) > -1) {
-        $('*[id^="id123-control'+phone_cid+'"]').keypress(function (event) {
-            phone_number_actions();
-        });
-    }
+  
 
 
 });
