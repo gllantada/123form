@@ -1,14 +1,22 @@
 
+$(document).ready(function() {
+  var $iframe = $("#1568609764695_377447865051328D").contents();
 
-$(document).ready(function (e) {
+  if($("#1568609764695_377447865051328D").contents().find("div[data-id='56690128']").length!=0){
+   console.log("encontrado")
+  }else{
+  setTimeout((function(){
 
+      if($("#1568609764695_377447865051328D")[0].contents().find("div[data-id='56690128']").length!=0){
+       console.log("encontrado")
+     }else{
+       console.log("nunca se encotnro");
+       console.log("hola mundo");
+     }
+     if ($("div[data-id='56690128']").length!=0) {
+       console.log("tampoco")
+     }
 
-        $('div[data-id="56690128"]>div[data.role="input-row"]>input').change(function () {
-        alert("gola");
-        });
-
-
-
-
-
+     }),4000);
+  }
 });
